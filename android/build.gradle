@@ -1,0 +1,30 @@
+buildscript {
+    ext.kotlin_version = '1.8.22' //changed on july 13 1.8.22
+    repositories {
+        google()
+        mavenCentral()
+    }
+     dependencies { 
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" //$kotlin_version
+        classpath 'com.google.gms:google-services:4.4.2'// uncommented just now
+    }
+    }// Added on 19/06/2024
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
