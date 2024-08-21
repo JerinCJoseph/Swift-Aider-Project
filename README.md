@@ -101,8 +101,9 @@ For mapping and geolocation functionalities, integrate Google Maps SDK and the D
 - [Google Maps for Flutter](https://pub.dev/packages/google_maps_flutter)
 - [Google Cloud Platform Documentation](https://cloud.google.com/docs)
 
-### 5. Run on Android Emulator
-- Launch an Android emulator via Android Studio.
+### 5. Run on Android Emulator and iOS Simulator
+- Launch an Android emulator via Visual Studio Code.
+- Launch an iOS Simulator via Visual Studio Code.
 - Use the following command to run the app on the Android emulator:
   ```bash
   flutter run
