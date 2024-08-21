@@ -1,4 +1,4 @@
-# Swift Aider App - Emergency Response Application
+# Swift Aider App - First-Aid Emergency Management Application
 MSc Project 2024- Alerting First-Aiders On Mobile Based On Their Localisation
 
 ## Introduction
@@ -10,6 +10,38 @@ The **Swift Aider App** is designed to bridge this gap by providing an effective
 ## Application Overview
 
 The Swift Aider App functions as a cross-platform mobile application, compatible with both Android and iOS smartphones. The app utilizes geolocation technology and push notifications to deliver precise navigation guidance and real-time updates, ensuring that first-aiders can be alerted and dispatched efficiently.
+
+## App Screenshots
+
+<table>
+  <tr>
+    <td>
+      <img src="images/iOS_Home_Screen.png" alt="Home Screen on iOS" width="300"/>
+    </td>
+    <td>
+      <img src="images/Android_Home_Screen.png" alt="Home Screen on Android" width="300"/>
+    </td>
+    <td>
+      <img src="images/Security_Map_Screen.png" alt="Security Map Screen" width="300"/>
+    </td>
+    <td>
+      <img src="images/Alert_Message_Box.png" alt="Alert Message Box" width="300"/>
+    </td>
+    <td>
+      <img src="images/First-Aider_Notification_Received.png" alt="Notification Received at FA" width="300"/>
+    </td>
+     <td>
+      <img src="images/SecurityEnd_FAResponse_Message.png" alt="Security End FAResponse Message" width="300"/>
+    </td>
+    <td>
+      <img src="images/Navigate_To_Alert_Location.png" alt="Navigate To Alert Location" width="300"/>
+    </td>
+      <td>
+      <img src="images/SecurityEnd_FAArrival_Message.png" alt="Security End FAArrival Message" width="300"/>
+    </td>
+  </tr> 
+</table>
+
 
 ### Key Features
 
