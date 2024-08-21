@@ -1,7 +1,5 @@
-# Swift-Aider-Project
-MSc Project 2024- Alerting First-Aiders On Mobile Based On Their Localisation
-
 # Swift Aider App - Emergency Response Application
+MSc Project 2024- Alerting First-Aiders On Mobile Based On Their Localisation
 
 ## Introduction
 
@@ -41,9 +39,9 @@ The Swift Aider App functions as a cross-platform mobile application, compatible
 
 The application relies on **Firestore**, a NoSQL cloud database, to manage critical data necessary for emergency response operations. This database securely stores user personal information collected during registration, facilitates real-time tracking of first-aiders' locations upon signing in, and maintains comprehensive logs of incident reports. This structured data enables the app to quickly identify and dispatch the nearest responders, thereby improving response times and resource allocation.
 
-## Installation and Testing on iOS and Android Simulators
+## Installation and Running on iOS and Android Simulators
 
-To install and test your Flutter app on iOS and Android simulators, follow the steps outlined below. This process includes setting up Flutter, configuring Firebase, and integrating Google Cloud APIs.
+To install and Run your Flutter app on iOS and Android simulators, follow the steps outlined below. This process includes setting up Flutter, configuring Firebase, and integrating Google Cloud APIs.
 
 ### 1. Install Flutter
 Follow the official Flutter documentation to set up Flutter on your machine. This includes downloading the SDK, setting up your environment, and configuring your IDE.
@@ -76,7 +74,6 @@ For mapping and geolocation functionalities, integrate Google Maps SDK and the D
 - Use the following command to run the app on the Android emulator:
   ```bash
   flutter run
-
 
 
 
